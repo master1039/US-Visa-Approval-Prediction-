@@ -18,6 +18,7 @@ list_of_files = [
     f"{project_name}/entity/config_entity.py",
     f"{project_name}/enity/artifact_entity.py",
     f"{project_name}/exception/__init__.py",
+    f"{project_name}/pipeline/__init__.py",
     f"{project_name}/pipeline/prediction_pipeline.py",
     f"{project_name}/pipeline/training_pipeline.py",
     f"{project_name}/utils/__init__.py",
