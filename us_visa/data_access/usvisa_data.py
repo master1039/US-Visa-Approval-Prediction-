@@ -25,7 +25,7 @@ class USvisaData:
             return pd.dataframe of collection
             """
             if database_name is None:
-                collection = self.mongo_client.database[collection_name]
+                collection = self.mongo_client.database[collection_name]                                            
             else:
                 collection = self.mongo_client.database[DATABASE_NAME][collection_name]
             
